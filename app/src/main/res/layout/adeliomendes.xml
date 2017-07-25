@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/adeliomendes"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Para revolucionar o mercado das energias, Adélio Mendes, professor da Faculdade de Engenharia da Universidade do Porto, desenvolveu uma tecnologia pioneira que utiliza células solares de perovskita com soldadura de vidro assistida a laser para produzir energia a baixo custo, com grande eficiência energética e durabilidade até 25 anos. Esta tecnologia contou com a colaboração de Alberto Barbosa, que ressalta o potencial da mesma e a relevância das parcerias académico-empresariais. A novidade atraiu a atenção da empresa australiana Dyesol, que comprou a patente."
+        android:id="@+id/textView30"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Full professor Faculty of Engineering University of Porto"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/imageView6"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+</RelativeLayout>
+</ScrollView>

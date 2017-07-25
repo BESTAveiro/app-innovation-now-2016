@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView21"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/anasilva"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Post doct CICECO"
+        android:id="@+id/textView50"
+        android:layout_below="@+id/imageView21"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="A tese de doutoramento da Doutora Ana Silva, intitulada “Multifunctional nano-in-micro formulations for lung cancer theragnosis”, foi distinguida com o prémio de melhor tese durante um congresso na Alemanha. Este prémio é atribuído duas vezes por ano para distinguir os melhores trabalhos dos alunos recém graduados. Esta propõe uma nova terapia para o cancro do pulmão, na qual os resultados são prometedores e fornecem uma possível estratégia para abrir novas perspetivas para a terapia genética eficaz em situações de adenocarcinoma de pulmão, demonstrando as vantagens de diversas áreas para desenvolver sistemas confiáveis e robustos"
+        android:id="@+id/textView56"
+        android:layout_below="@+id/textView50"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp" />
+</RelativeLayout>
+</ScrollView>

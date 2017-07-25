@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">InnovationNow</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="case_study">
+    Tema\n\n
+
+    Mobilidade Eléctrica, uma área incontornável e em expansão\n\n
+
+    Desafio\n\n
+
+    sabe mais <a href="http://bestaveiro.web.ua.pt/innovationnow/#atividades">aqui</a>
+    </string>
+</resources>
